@@ -1,43 +1,48 @@
-# Recipe Manager
+# 🍎 iOS Recipe Manager (SwiftUI Showcase)
 
-Welcome to Recipe Manager, an iOS app that allows you to easily manage and explore recipes. This app provides a user-friendly interface with a cooking notebook feel, making it enjoyable to use.
+A native iOS application designed with a "cooking notebook" aesthetic, focused on intuitive recipe management and discovery. This project serves as a foundational showcase of **SwiftUI** development, demonstrating core competencies in Apple's declarative UI framework and native integrations. 
 
-## Features
+---
 
-- **Search for recipes**: The app integrates with the mealDB API, allowing you to search for a wide variety of recipes.
-- **Manage your own recipes**: In addition to searching for recipes, you can also add your own recipes to the app and store them for future reference.
-- **Step-by-step cooking steps**: Each recipe includes detailed cooking instructions, presented in a step-by-step format. You can easily follow along while preparing your favorite dishes.
+### 💡 The Native iOS Potential
+While this project represents an earlier milestone in my iOS journey, it demonstrates a solid grasp of the **Apple Ecosystem** fundamentals required for high-quality mobile products:
+* **Declarative UI:** Leveraging SwiftUI to create a responsive, fluid interface that feels "at home" on iOS.
+* **API Integration:** Seamlessly fetching and parsing data from the MealDB API to provide a rich content library.
+* **Local Persistence:** Implementing CRUD (Create, Read, Update, Delete) operations to allow users to manage a personal digital cookbook.
 
-## Installation
+---
 
-To build and run the Recipe Manager app on your iOS device, follow these steps:
+### 🛠️ Tech Stack
+* **Language:** Swift
+* **Framework:** SwiftUI
+* **Tooling:** Xcode & Interface Builder
+* **Data Source:** MealDB API Integration
+* **Architecture:** Simple, maintainable view structures optimized for the iOS lifecycle.
 
-1. Clone the repository to your local machine.
-2. Open the project in Xcode.
-3. Connect your iOS device to your computer.
-4. Select your device as the build target.
-5. Build and run the project.
+### ⚙️ Key Engineering Features
+* **Dynamic Search:** Real-time recipe discovery powered by external REST APIs.
+* **Custom Recipe Engine:** A dedicated "Create Own" workflow for manual data entry and storage.
+* **Step-by-Step UX:** Instructions presented in a clean, digestible format specifically designed for active cooking environments.
+* **Native Navigation:** Utilization of TabViews and NavigationStacks to provide a standard, polished iOS user experience.
 
-> Note: Make sure you have the latest version of Xcode installed on your machine.
+### 📈 Professional Context
+This repository highlights my transition into native iOS development. Since its completion, I have evolved these skills into **Kotlin Multiplatform (KMP)** and advanced **Swift/SwiftUI** patterns used in Fintech and complex logic applications. It stands as a testament to my ability to pick up native Apple tooling and deliver a functional, App Store-ready architecture.
 
-## Usage
+### 🤝 Available for Hire
+I specialize in **KMP, Mobile Native (Kotlin/Swift**. 
 
-Once the app is successfully installed on your device, you can start using it right away. Here's how to get started:
+**[Contact me via LinkedIn](https://www.linkedin.com/in/guido-roos91)**
 
-## Usage
+---
 
-Once the app is successfully installed on your device, you can start using it right away. Here's how to get started:
+### 🔨 Installation & Usage
 
-1. Launch the app on your device.
-2. On the home screen, you will see an empty list of recipes. To populate the list, you have two options:
-   - Tap the "Search Recipes" button in the tab bar to search for recipes in the mealDB.
-   - Tap the "Create Own" button in the tab bar to add your own recipes.
-3. When you find a recipe you're interested in, tap on it to view its details, including the list of ingredients and step-by-step cooking instructions.
-4. In the recipe view page, you have the following options:
-   - To delete the recipe, tap on the "Delete" button.
-   - To edit the recipe, tap on the "Edit" button to go to the edit page.
-6. Follow the on-screen prompts to enter the recipe details, including the name, ingredients, and cooking instructions.
-7. Once a recipe is added, you can easily access and edit it anytime.
-
-Enjoy using Recipe Manager and have fun cooking delicious meals!
-
+1. Environment: Ensure you have the latest version of Xcode installed.
+2. Setup:
+   git clone [repository-url]
+   open RecipeManager.xcodeproj
+3. Execution: Select your iOS device or Simulator as the build target in Xcode and press Cmd + R to build and run.
+4. Getting Started:
+   - Discover: Tap "Search Recipes" to browse the MealDB library.
+   - Create: Use "Create Own" to build your personal database.
+   - Manage: Tap any recipe to edit details or delete entries.
